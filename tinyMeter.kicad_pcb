@@ -42,14 +42,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
-				(color "White")
+				(color "Black")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Black")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -69,7 +69,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Black")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -77,7 +77,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
-				(color "White")
+				(color "Black")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -24148,19 +24148,6 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "DEBUG"
-		(at 160.3 78.6 0)
-		(layer "F.SilkS" knockout)
-		(uuid "100eadde-515d-448f-8803-739d562ae77d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "ST7789"
 		(at 170.3 76.5 0)
 		(layer "F.SilkS" knockout)
@@ -24175,8 +24162,8 @@
 		)
 	)
 	(gr_text "USB-A 1 5V OUT"
-		(at 199.8 135 0)
-		(layer "F.SilkS" knockout)
+		(at 199.6 134.8 0)
+		(layer "F.SilkS")
 		(uuid "22932653-c793-45aa-ae89-6c9092c4ea51")
 		(effects
 			(font
@@ -24189,7 +24176,7 @@
 	)
 	(gr_text "Master USB"
 		(at 162.1 143.3 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "368acdfd-ed19-4432-9426-309e5259ee59")
 		(effects
 			(font
@@ -24215,7 +24202,7 @@
 	)
 	(gr_text "3V3"
 		(at 156.5 82.7 90)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "411617d9-3eb4-46bf-9ee0-786f52f77f48")
 		(effects
 			(font
@@ -24241,7 +24228,7 @@
 	)
 	(gr_text "DC OUT"
 		(at 206.3 98 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "5f8db7c7-3828-416d-b342-d2fa122145f1")
 		(effects
 			(font
@@ -24252,9 +24239,22 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "0x41"
+		(at 180.1 92.4 0)
+		(layer "F.SilkS")
+		(uuid "6564b957-c6e1-4381-8911-425f6b84e2d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 159 83 90)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "68a89fe8-32cf-4725-970a-efb41b3f11f6")
 		(effects
 			(font
@@ -24267,7 +24267,7 @@
 	)
 	(gr_text "Activity"
 		(at 141.1 129.7 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "8053dc05-23be-40fc-87d2-9b233089839b")
 		(effects
 			(font
@@ -24280,7 +24280,7 @@
 	)
 	(gr_text "Reset"
 		(at 145.2 106.9 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "88c590fc-9230-40b6-9e83-6350c27a3ec5")
 		(effects
 			(font
@@ -24293,7 +24293,7 @@
 	)
 	(gr_text "DC IN"
 		(at 188.4 76.8 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "89a3ab09-481a-47fd-bd31-5563764d39aa")
 		(effects
 			(font
@@ -24306,7 +24306,7 @@
 	)
 	(gr_text "Boot\n"
 		(at 145.5 111.7 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "a4cb28ff-79ab-4382-916c-27b7a3c5cbee")
 		(effects
 			(font
@@ -24319,7 +24319,7 @@
 	)
 	(gr_text "TX"
 		(at 153.9 81.7 90)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "c61eaf68-8a2a-4699-b764-2cf81c928c58")
 		(effects
 			(font
@@ -24330,9 +24330,22 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "0x40"
+		(at 178.4 126.8 0)
+		(layer "F.SilkS")
+		(uuid "d29021ef-e10b-4c82-952d-8914f9591c83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Power"
 		(at 143.6 114.4 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "d6ba550e-45a8-490b-81d9-038e1cb0e428")
 		(effects
 			(font
@@ -24358,7 +24371,7 @@
 	)
 	(gr_text "USB-A 2 5V OUT"
 		(at 199.5 116.8 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "ddf22438-8b7c-4737-960e-00130d37e03b")
 		(effects
 			(font
@@ -24369,9 +24382,22 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "0x44"
+		(at 178.3 115 0)
+		(layer "F.SilkS")
+		(uuid "ee3f6366-f6e6-4d80-bd3e-4ec84880cbda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RX"
 		(at 151.3 81.9 90)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "ef794826-3b14-4e7b-bf72-a3342118a493")
 		(effects
 			(font
@@ -24384,7 +24410,7 @@
 	)
 	(gr_text "USB 5V IN"
 		(at 180.7 143.4 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "f6c466d1-52f1-40ce-a06c-26c9d7210544")
 		(effects
 			(font
@@ -24933,15 +24959,6 @@
 		(free yes)
 		(net 1)
 		(uuid "0afabc17-544d-4b81-8513-1e566847e934")
-	)
-	(via
-		(at 179 124.325)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "0c1585f9-f510-4422-bdc4-1817ddaab0a3")
 	)
 	(via
 		(at 161 76.325)
@@ -26529,7 +26546,7 @@
 		(uuid "dccb837c-2034-4038-93fe-dba67a8e3f42")
 	)
 	(via
-		(at 185 124.325)
+		(at 183.1 122.6)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -26752,7 +26769,7 @@
 		(uuid "f964a53e-853e-456a-9127-c81c19385dcc")
 	)
 	(via
-		(at 178.8 117.8)
+		(at 178.8 118.7)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
